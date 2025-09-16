@@ -2,13 +2,13 @@
 
 ## EXP 5: COMPARATIVE ANALYSIS OF DIFFERENT TYPES OF PROMPTING PATTERNS AND EXPLAIN WITH VARIOUS TEST SCENARIOS
 
-# Aim
+### Aim
 
 To test and compare how different pattern models respond to various prompts (broad or unstructured) versus basic prompts (clearer and more refined) across multiple scenarios.  Analyze the quality, accuracy, and depth of the generated responses 
 
 ### AI Tools Required: 
 
-# Explanation: 
+## Explanation: 
 Define the Two Prompt Types:
 
 Write a basic Prompt: Clear, detailed, and structured prompts that give specific instructions or context to guide the model.
@@ -133,4 +133,4 @@ Observation: Across all scenarios, refined prompts consistently outperformed bro
 
 
 
-# RESULT: The prompt for the above said problem executed successfully
+## RESULT: The prompt for the above said problem executed successfully
