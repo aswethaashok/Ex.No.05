@@ -32,7 +32,103 @@ A table comparing ChatGPT's responses to naïve and basic prompts across all sce
 Analysis of how prompt clarity impacts the quality, accuracy, and depth of ChatGPT’s outputs.
 Summary of findings with insights on how to structure prompts for optimal results when using ChatGPT.
 
+## Output: 
+### Introduction:
 
-# OUTPUT
+Prompting patterns are crucial in determining how effectively an AI tool generates responses. Broad/unstructured prompts often produce vague or unfocused answers, while basic/refined prompts lead to more accurate, structured, and user-relevant results.
+
+This experiment evaluates both types of prompts across three test scenarios in the context of an AI-powered customer support chatbot.
+Test Scenarios & Comparative Analysis
+
+### Scenario 1: Product Troubleshooting
+
+Broad Prompt:
+```
+"My laptop is not working. Help me."
+```
+
+Response Quality: Vague → AI lists too many possibilities (battery, software, hardware, etc.).
+
+Accuracy: Low → No specific actionable steps.
+
+Depth: Shallow, generic advice.
+
+Refined Prompt:
+```
+"Suggest 5 quick troubleshooting steps if a Dell laptop won’t power on."
+```
+
+Response Quality: High → Focused list of steps.
+
+Accuracy: High → Brand-specific, actionable (check battery, adapter, perform hard reset, etc.).
+
+Depth: Balanced, not overwhelming.
+
+### Scenario 2: Order Tracking
+
+Broad Prompt:
+```
+"Where is my order?"
+```
+
+Response Quality: Low → AI gives generic answer: "Check tracking system."
+
+Accuracy: Low → Doesn’t guide user properly.
+
+Depth: Minimal.
+
+Refined Prompt:
+```
+"Guide a customer step-by-step to track an Amazon order using the order ID."
+```
+
+Response Quality: High → Clear instructions with navigation steps (login → Orders → Enter ID).
+
+Accuracy: High → Platform-specific, correct.
+
+Depth: Detailed but easy to follow.
+
+### Scenario 3: General Inquiry
+
+Broad Prompt:
+```
+"Tell me about warranty."
+```
+
+Response Quality: Medium → AI gives a textbook definition of warranty.
+
+Accuracy: Low → May miss context (product type, duration).
+
+Depth: Too generic to be helpful.
+
+Refined Prompt:
+```
+"Explain the 1-year warranty policy for Samsung smartphones, including what is covered and excluded."
+```
+
+Response Quality: High → Precise explanation with coverage/exclusions.
+
+Accuracy: High → Brand-specific details.
+
+Depth: Comprehensive yet relevant.
+
+| Scenario                | Broad Prompt Output             | Refined Prompt Output                       | Quality | Accuracy | Depth    |
+| ----------------------- | ------------------------------- | ------------------------------------------- | ------- | -------- | -------- |
+| Product Troubleshooting | Generic issues listed           | 5 clear Dell-specific troubleshooting steps | Low     | Low      | Shallow  |
+| Order Tracking          | “Check tracking” generic advice | Step-by-step Amazon tracking instructions   | High    | High     | Balanced |
+| General Inquiry         | Textbook definition of warranty | Brand-specific policy explanation           | Medium  | High     | Strong   |
+
+
+## Discussion:
+
+Broad/Unstructured Prompts:
+Pros: Quick, requires little effort from user.
+Cons: Produces vague, unfocused, or generic responses; lacks context.
+Refined/Basic Prompts:
+Pros: Higher accuracy, context-specific, user-friendly.
+Cons: Requires more effort from user to craft.
+Observation: Across all scenarios, refined prompts consistently outperformed broad prompts in terms of quality, accuracy, and depth.
+
+
 
 # RESULT: The prompt for the above said problem executed successfully
